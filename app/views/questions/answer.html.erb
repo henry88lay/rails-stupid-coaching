@@ -1,9 +1,19 @@
-<h1>Stupid Coaching</h1>
+<header>
+  <h1>Stupid Coaching</h1>
+</header>
 
-<p><%= @answer %></p>
-<p>- You</p>
 
-<p><%= @response %></p>
-<p>- Your Coach</p>
+<section>
+  <p><%= @answer %></p>
+  <h2>- You</h2>
+</section>
 
-<%= link_to "Ask me more!?", ask_path %>
+<section>
+  <p><%= @response %></p>
+  <h2>- Your Coach</h2>
+</section>
+
+<footer>
+  <%= link_to "Ask me more!?", ask_path %>
+</footer>
+

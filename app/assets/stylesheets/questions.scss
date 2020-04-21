@@ -8,16 +8,43 @@ body {
 	background: $gray; // Using this variable
 }
 
+header, footer {
+  text-align: center;
+}
+
 .banner {
 	background: red;
 	h1 {
 		font-size: 50px;
+    margin: auto auto;
 	}
 }
 
 a {
-	color: grey;
+	color: blue;
 	&:hover {
 		color: black;
 	}
+  text-align: center;
+}
+
+section {
+  border-left: 4px solid black;
+  margin: 12px 12px;
+}
+
+.ask {
+  text-align: center;
+}
+
+.ask p {
+  padding: 0;
+}
+
+h2, p {
+  padding-left: 14px;
+}
+
+h2 {
+  background-color: #FFB225;
 }
